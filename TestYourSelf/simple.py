@@ -1,9 +1,6 @@
 """ FIND THE BEST, AVERAGE AND WORST CASES FOR ALL THE ALGORITHMS
     THERE SHOULD BE A DETAILED ANALYSIS OF EACH LINE
 """
-
-
-
 def FIND1(A, v):
     i = 0              
     while i < len(A)-1 and A[i] != v:
@@ -41,8 +38,3 @@ def MAXIMUM(A):
         if A[i] > M:
             M = A[i]
     return M
-
-
-
-
-

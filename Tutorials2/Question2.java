@@ -1,7 +1,5 @@
 package Tutorials2;
 
-import javax.management.RuntimeErrorException;
-
 public class Question2 {
     /* To implement a queue of a fixed size with
      * and array you can have a head
