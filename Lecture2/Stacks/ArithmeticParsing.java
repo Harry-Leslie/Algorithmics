@@ -59,6 +59,7 @@ public class ArithmeticParsing {
                 System.out.println("You Stupid");
         }
 
+
         return stack1.peek();
     }
 }

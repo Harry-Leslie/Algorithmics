@@ -1,14 +1,18 @@
 package Lecture2.Stacks;
 
 import java.util.Arrays;
-import java.util.Stack;
-import java.util.Vector;
+
 
 public class LectureNotes {
     public static void main(String[] args) {
-        Stack<String> stack = new Stack<>();
-        // YOU CAN ALSO SAY
-        Vector<String> stack2 = new Stack<>();
+        /* Stack Time Complexity
+        *
+        *
+        * Insertion O(1)
+        * Deletion O(1)
+        * Peeking O(1)
+        *
+        * */
         // AS STACK EXTENDS but that means it gets all the methods from vector
         ReversingArray<Integer> example1 = new ReversingArray<>();
         ParsingExpression example2 = new ParsingExpression();
